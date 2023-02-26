@@ -1,0 +1,18 @@
+.footer__link {
+    margin-right: 18px;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 18px; 
+ }
+@media (max-width: 767px) {
+    .footer__link {
+        display: grid;
+        margin-bottom: 32px;
+        margin-right: 0;
+    }
+}
+@media (max-width: 767px) {
+    .footer__link:last-child {
+        margin-bottom: 0;
+    }
+}
