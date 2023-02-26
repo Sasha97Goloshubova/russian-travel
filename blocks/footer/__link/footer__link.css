@@ -3,16 +3,17 @@
     text-decoration: none;
     font-size: 16px;
     line-height: 18px; 
- }
-@media (max-width: 767px) {
-    .footer__link {
-        display: grid;
-        margin-bottom: 32px;
-        margin-right: 0;
-    }
+    margin-bottom: 32px;
+    opacity: 1;
 }
+
+.footer__link:hover {
+    opacity: 0.5;
+}
+
 @media (max-width: 767px) {
     .footer__link:last-child {
         margin-bottom: 0;
+        margin-right: 0;
     }
 }

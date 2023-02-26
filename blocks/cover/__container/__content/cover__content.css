@@ -1,4 +1,9 @@
 .cover__content {
     text-decoration: none;
     color: white;
+    opacity: 1;
+}
+
+.cover__content:hover {
+    opacity: 0.5;
 }

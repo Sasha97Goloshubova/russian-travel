@@ -7,7 +7,8 @@
     max-width: 1184px;
     justify-content: space-between;
     grid-template-columns: repeat(2, minmax(min-content, max-content));
-    grid-template-rows: 1, minmax(min-content, max-content);
+    grid-template-rows: 1 minmax(min-content, max-content);
+    align-items: end;
 }
 
 @media (max-width: 1279px) {
@@ -29,11 +30,10 @@
         margin-left: auto;
         margin-right: auto;
         margin-top: 64px;
-        display: grid;
         padding-left: 16px;
         padding-right: 16px;
-        padding-bottom: 24px;
+        display: grid;
         grid-template-columns: 186px;
-        grid-template-rows: 6, minmax(min-content, max-content);
+        grid-template-rows: repeat(2, minmax(min-content, max-content));
     }
 }

@@ -17,9 +17,11 @@
 }
 @media (max-width: 767px) {
     .lead__title {
+            margin-bottom: 16px;
             padding-left: 16px;
             padding-right: 16px;
             max-width: 288px;
             font-size: 40px;
+            line-height: 44px;
     }
 }

@@ -8,3 +8,9 @@
     list-style-position: outside;
     padding-left: 0;
 }
+
+@media (max-width: 767px) {
+    .intro__subtitle {
+        margin-top: 34px;
+        }
+}
